@@ -1,0 +1,7 @@
+State: Andaman & Nicobar i: 1
+	 City: Port Blair j:1
+State: Andhra Pradesh i: 2
+	 City: Adoni j:1
+	 City: Amlapuram j:2
+	 City: Anakapalli j:3
+	 City: Anantpur j:4
