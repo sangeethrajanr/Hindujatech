@@ -26,7 +26,8 @@ public class Hinduja_dropdownLooping {
 
 		System.setProperty("webdriver.chrome.driver", "./" + "\\drivers\\chromedriver.exe");
 		ChromeOptions options = new ChromeOptions();
-		options.setBinary("C:\\Users\\aroki\\Downloads\\chrome-win64 (1)\\chrome-win64\\chrome.exe");
+		options.setBinary("./" + "\\chrome\\chrome.exe");
+		//options.setBinary("C:\\Users\\aroki\\Downloads\\chrome-win64 (1)\\chrome-win64\\chrome.exe");
 		options.addArguments("--remote-allow-origins=*");
 		WebDriver driver = new ChromeDriver(options);
 		driver.manage().window().maximize();
