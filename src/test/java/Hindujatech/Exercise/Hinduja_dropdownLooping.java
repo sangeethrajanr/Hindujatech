@@ -25,9 +25,9 @@ public class Hinduja_dropdownLooping {
 		// "./"+"\\drivers\\geckodriver.exe");
 
 		//System.setProperty("webdriver.chrome.driver", "./" + "\\drivers\\chromedriver.exe");
-		ChromeOptions options = new ChromeOptions();
+		//ChromeOptions options = new ChromeOptions();
 		//options.setBinary("./" + "\\chrome\\chrome.exe");
-		options.addArguments("--remote-allow-origins=*");
+		//options.addArguments("--remote-allow-origins=*");
 		WebDriver driver = new ChromeDriver(options);
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
